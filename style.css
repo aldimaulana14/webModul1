@@ -1,0 +1,26 @@
+.gallery {
+    margin-top: 100px;
+}
+
+.judul-gallery {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.foto {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.foto img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
